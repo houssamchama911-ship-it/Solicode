@@ -1,0 +1,19 @@
+
+1. Inventaire des valeurs observées
+nom_auteur : Madani, Sara, Youssef, Amine, Nadia
+prenom_auteur : Ali, Amrani, Karim, Idrissi, Alaoui
+email_auteur : madani@mail.com, sara@mail.com, youssef@mail.com, amine@mail.com, nadia@mail.com
+nom_ville : Tanger, Rabat
+nom_categorie : Développement, Actualité
+
+
+
+
+2. Valeurs répétées
+nom_ville : Les valeurs “Tanger” (répétée 3 fois) et “Rabat” (répétée 2 fois) se répètent pour cette donnée.
+nom_categorie : Les valeurs “Développement” (répétée 3 fois) et “Actualité” (répétée 2 fois) se répètent pour cette donnée.
+(Note : Les données nom_auteur, prenom_auteur, et email_auteur n’ont aucune valeur répétée dans ce tableau précis).
+3. Le problème lié aux répétitions
+Choix de la répétition : La valeur “Tanger” pour la donnée nom_ville (ou “Développement” pour nom_categorie).
+
+Le problème lors d’une modification : Si l’on devait modifier le nom de la ville “Tanger” (par exemple pour corriger une faute de frappe en “Tangier”), il faudrait rechercher et modifier cette information manuellement sur les 3 lignes différentes du tableau. Si le fichier contenait des milliers de lignes, il y aurait un très fort risque d’oublier de modifier une occurrence, ce qui créerait des erreurs et des incohérences dans les données.
