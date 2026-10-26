@@ -1,0 +1,4 @@
+/* Ce sélecteur "étoile" cible absolument TOUS les éléments HTML */
+* {
+    box-sizing: border-box;
+}
