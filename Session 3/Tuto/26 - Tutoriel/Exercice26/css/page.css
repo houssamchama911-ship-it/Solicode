@@ -1,0 +1,23 @@
+/* css/pages.css */
+.banniere-accueil {
+    padding: 96px 24px;
+    text-align: center;
+    background: #ffffff;
+
+    .banniere-accueil h1 {
+    max-width: 850px;
+    margin: 0 auto; /* Centre le titre de 850px au milieu de la page */
+    font-size: 56px;
+    color: #0a2042;
+}
+
+.banniere-accueil p {
+    max-width: 680px;
+    margin: 24px auto 0; /* 24px en haut, Auto à gauche/droite, 0 en bas */
+    font-size: 17px;
+    color: #6b7280;
+}
+/* Petit effet de fond (grille) pour le style */
+    background-image: radial-gradient(#e5e7eb 1px, transparent 1px);
+    background-size: 24px 24px;
+}
