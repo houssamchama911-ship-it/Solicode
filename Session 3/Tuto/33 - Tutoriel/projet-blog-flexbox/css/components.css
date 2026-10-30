@@ -1,0 +1,3 @@
+.bouton-principal { display: inline-block; padding: 10px 20px; color: white; background: #2673e8; border-radius: 8px; font-size: 14px; font-weight: 600; text-align: center; }
+.pilule-filtre { display: inline-block; padding: 10px 16px; margin: 4px; color: #4b5563; background: white; border: 1px solid #e5e7eb; border-radius: 8px; }
+.pilule-filtre.actif { color: white; background: #111827; }
