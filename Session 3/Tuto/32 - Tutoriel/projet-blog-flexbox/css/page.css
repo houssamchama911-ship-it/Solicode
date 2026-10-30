@@ -1,0 +1,3 @@
+.filtre-categories { margin: 64px 24px; text-align: center; }
+.filtre-categories h2 { margin: 0 0 20px; color: #111827; font-size: 18px; }
+.liste-filtres{ display: flex; flex-wrap: wrap; flex-wrap: wrap;}
