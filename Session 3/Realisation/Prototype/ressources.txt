@@ -1,0 +1,43 @@
+RESSOURCES GRAPHIQUES — MAQUETTE SOLILEARN
+
+Ce dossier contient uniquement les ressources graphiques à fournir aux stagiaires.
+Aucun code HTML ou CSS n'est inclus.
+
+1. IMAGES
+- hero-reference.jpg : image principale de la bannière (recadrée depuis la maquette fournie)
+- developpement-web-reference.jpg : image de la carte Développement Web
+- developpement-mobile-reference.jpg : image de la carte Développement Mobile
+- design-ux-ui-reference.jpg : image de la carte Design UX/UI
+
+Remarque : ces fichiers sont des recadrages de référence extraits de la capture de la maquette. Pour une reproduction haute qualité, vous pouvez remplacer ces images par les originaux haute résolution.
+
+2. POLICES
+- Montserrat : titres, logo et titres des cartes
+  Graisses conseillées : 600, 700, 800
+- Lato : paragraphes, navigation et boutons
+  Graisses conseillées : 400, 700
+Téléchargement : https://fonts.google.com/
+
+3. COULEURS (estimations visuelles)
+- Bleu marine : #102858 — titres et logo
+- Bleu principal : #1769E8 — boutons, liens et icônes bleues
+- Jaune : #FFD04A — accent du logo et bouton de connexion
+- Bleu très clair : #EDF5FF — arrière-plans du hero et des formations
+- Blanc : #FFFFFF — navigation, cartes et footer
+- Gris bleuté : #435A7E — paragraphes
+
+4. ICÔNES
+Bibliothèque : Lucide Icons — https://lucide.dev/icons/
+- graduation-cap : Formations pratiques
+- users-round : Accompagnement
+- briefcase-business : Insertion professionnelle
+- chart-no-axes-column-increasing : Accessibilité
+- code-2 : Développement Web
+- smartphone : Développement Mobile
+- palette : Design UX/UI
+- arrow-right : flèches des liens
+Réseaux sociaux du footer : Facebook, LinkedIn, Instagram, YouTube.
+Les logos officiels des réseaux sociaux ne font pas partie de Lucide ; ils peuvent être obtenus via https://fontawesome.com/icons
+
+5. CONSIGNE
+Utiliser ces ressources pour reproduire la maquette. Les couleurs sont des estimations proches de la capture et les images sont des recadrages de référence.

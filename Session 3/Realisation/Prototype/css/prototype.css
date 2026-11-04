@@ -1,0 +1,177 @@
+.en-tete-de-la-page { 
+    padding: 20px 24px; 
+    background: white; 
+    border-bottom: 1px solid #e5e7eb; }
+
+
+ .en-tete {
+    display: flex;
+    justify-content: space-between;
+
+ }  
+    
+
+
+.navigation p{
+    display:flex; 
+    justify-content: space-between; 
+    align-items: center;
+
+}
+.liens-navigation{
+    color: #141414; 
+    font-size: 14px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 24px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold}
+hr{
+    color: #1769E8 ;
+    
+
+
+
+}
+img{
+    background-image: none;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+
+
+
+/*La partie section*/
+.banniere-accueil{background-color:#EDF5FF; display: flex; height: 550px;}
+.banniere-accueil h1{width: 100%; float: left; max-width: 850px; margin: 25px; color: #0a2042; font-family: Georgia, serif; font-size: 56px; font-weight: 900; line-height: 1.15;}
+.banniere-accueil p{max-width: 680px; margin: 24px; color: #6b7280; font-size: 17px; line-height: 1.7;}
+.banniere-accueil h1 span { color: #2673e8; }
+.bannier-continue {height:100%; display: flex; flex-direction: column;}
+.images-header{height: 100%; overflow: hidden; width: 80%;}
+.images-header img{height: 100%; margin-top: -2px;}
+.banniere-accueil2{padding: 2px 1px;  background-color: #EDF5FF; display: flex; flex-direction:column; justify-content:flex-start;  margin-top: 5px; height: 100px;}
+.section-titre{display: flex;justify-content: flex-start; flex-direction: column;font-family: Impact,'Arial Narrow Bold', sans-serif;}
+.section-boutant{color: #1769E8; margin-top: -50px; display: flex;justify-content: end; flex-direction: row;}
+.partie2{display: flex;justify-content: flex-start;flex-direction: row; border-color: #2673e8; }
+.partie2-div{padding: 40px 10px; display: flex;justify-content: space-around; gap:10px;padding-left: 10px; border:30px; width: 100%;}
+.cards-section{display: flex;justify-content: space-between;flex-direction: row;}
+.actions-banniere{}
+
+
+/*La partie BLOCK*/
+.banniere-accueil2{background-color: #EDF5FF margin-top: auto;}
+.block1{max-width:400px; height: auto;  margin-inline: 10px;  background-color:rgb(249, 254, 254) ; border-bottom: #c8e2f5; display: flex; justify-content: flex-start; flex-direction:row; gap: 20px;}
+.info-block1{display: flex;justify-content: flex-start; flex-direction: column;}
+
+
+.cards{
+    display: flex;
+    background-color: #EDF5FF;
+    gap: 10px;
+    border: 30%;
+    padding: 40px 20px;
+}
+
+
+
+.cards-list{
+    display: flex;
+    gap: 20px;
+    border-radius: 40px;
+    border-radius: 2px;
+    justify-content: center;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 30px;
+    
+}
+
+
+   
+
+
+.cards-list img{
+    width: 200px;
+   
+}
+
+.ii{ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1769E8;
+    display: flex;
+    width: 10px;
+
+
+}
+
+
+
+
+
+
+/*Les LOGO*/
+.logo{font-weight: bolder; margin-top:10px;}
+.logo-sombre{text-decoration: double; font-family: Georgia, 'Times New Roman', Times, serif;}
+.logo-sombre2{color: rgb(224, 224, 62); font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+.img1{display: flex;}
+.img2{display: flex;}
+.img3{display: flex;}
+.img4{display: flex;}
+
+
+
+/*La partie image*/
+.img1 img{border-radius: 100%;border: 15px ; width: 60px; height: 60px; background-color: #2673e8; }
+.img2 img{border-radius: 100%;border: 15px ; width: 60px; height: 60px; background-color: rgb(224, 224, 62) }
+.img3 img{border-radius: 100%;border: 15px ; width: 60px; height: 60px; background-color: #2673e8 }
+.img4 img{border-radius: 100%;border: 15px ; width: 60px; height: 60px; background-color: rgb(224, 224, 62) }
+
+
+
+
+/*Les boutent*/
+.bouton-principal { display: flex; justify-content: flex-end;  display: inline-block; padding: 10px 20px; color: rgb(23, 21, 21); background: #f1e55adc; border-radius: 8px; font-size: 14px; font-weight: 600; text-align: center;}
+.bouton-principal2{ display: inline-block ;margin: 25px; padding: 10px 20px ;color: white; background: #2673e8; border-radius: 8px; font-size: 14px; font-weight: 600; text-align: start;}
+.bouton-secondaire3{ color: #2673e8;}
+.bouton-secondaire2{display: inline-block ;margin: 25px; padding: 10px 20px ;color: rgb(19, 19, 19);background: #EDF5FF; border-radius: 8px; font-size: 14px; font-weight: 600; text-align: start;}
+
+
+
+
+
+/*Partie footer */
+.pied-de-page{
+    margin-top: ;
+}
+
+.navigation-pied-de-page{
+    display:flex ;
+    justify-content:flex-end;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 15px;
+    padding-right:10px;
+}
+.logo-sombre3{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.logo-sombre4{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    color: yellow;
+    font-family:'Montserrat';
+
+}
+.colonne-pied-de-page{
+    margin-top: 10px;
+    padding-left: 15px;
+}
+
+
