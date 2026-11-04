@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chamacheck — Produits de valeur</title>
+  <meta name="description" content="Chamacheck, plateforme moderne pour découvrir, estimer et comparer des produits de valeur matérielle.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <a class="brand" href="#"><span class="brand-mark">C</span><span>Chamacheck</span></a>
+    <nav>
+      <a href="#catalogue">Catalogue</a>
+      <a href="#evaluation">Évaluation</a>
+      <a href="#categories">Catégories</a>
+      <a href="#comment-ca-marche">Comment ça marche</a>
+    </nav>
+    <button class="header-btn" onclick="openEstimate()">+ Estimer un produit</button>
+    <button class="menu" onclick="toggleMenu()">☰</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow">PLATEFORME INTELLIGENTE DE VALEUR</div>
+        <h1>Donnez une vraie valeur à vos <span>objets.</span></h1>
+        <p>Découvrez, comparez et estimez les produits de valeur matérielle grâce à une interface pensée pour les collectionneurs, vendeurs et acheteurs exigeants.</p>
+        <div class="hero-actions">
+          <button class="primary" onclick="openEstimate()">Évaluer un produit →</button>
+          <a class="secondary" href="#catalogue">Explorer le catalogue</a>
+        </div>
+        <div class="trust">
+          <span>✓ Estimation indicative</span>
+          <span>✓ Comparaison de prix</span>
+          <span>✓ Fiches détaillées</span>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="floating-tag">VALEUR ESTIMÉE</div>
+        <div class="object-visual">📱</div>
+        <div class="hero-product">
+          <div><strong>Mobile</strong><small>État : excellent · 1987</small></div>
+          <strong class="price">450 €</strong>
+        </div>
+        <div class="confidence"><span></span><div><b>Indice de confiance</b><small>Élevé · 91%</small></div></div>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div><b>12 500+</b><span>produits référencés</span></div>
+      <div><b>48</b><span>catégories</span></div>
+      <div><b>96%</b><span>fiches complètes</span></div>
+      <div><b>24/7</b><span>accès à la plateforme</span></div>
+    </section>
+
+    <section id="categories" class="section">
+      <div class="section-head"><div><span class="eyebrow">EXPLORER</span><h2>Catégories de valeur</h2></div><a href="#catalogue">Voir tout →</a></div>
+      <div class="categories">
+        <button onclick="filterCategory('Montres')"><span>⌚</span><b>Montres</b><small>2 840 produits</small></button>
+        <button onclick="filterCategory('Phone')"><span>📱</span><b>Phone</b><small>1 920 produits</small></button>
+        <button onclick="filterCategory('Moto')"><span>🏍️</span><b>Moto</b><small>3 210 produits</small></button>
+        <button onclick="filterCategory('Autovoitur')"><span>🏎️</span><b>Automobile</b><small>1 150 produits</small></button>
+        <button onclick="filterCategory('Ordinateur')"><span>🖥️</span><b>Ordinateur</b><small>2 430 produits</small></button>
+      </div>
+    </section>
+
+    <section id="catalogue" class="section catalogue">
+      <div class="section-head"><div><span class="eyebrow">SÉLECTION</span><h2>Produits remarquables</h2></div><div class="controls"><input id="search" type="search" placeholder="Rechercher..." oninput="renderProducts()"><select id="sort" onchange="renderProducts()"><option value="featured">Pertinence</option><option value="high">Prix décroissant</option><option value="low">Prix croissant</option></select></div></div>
+      <div id="productGrid" class="product-grid"></div>
+    </section>
+
+    <section id="evaluation" class="valuation">
+      <div>
+        <span class="eyebrow">CHAMACHECK ESTIMATE</span>
+        <h2>Vous possédez un objet dont vous ignorez la valeur ?</h2>
+        <p>Créez une estimation indicative en quelques étapes : catégorie, état, année et informations complémentaires.</p>
+      </div>
+      <button class="primary light" onclick="openEstimate()">Lancer une estimation →</button>
+    </section>
+
+    <section id="comment-ca-marche" class="section steps">
+      <div class="section-head"><div><span class="eyebrow">SIMPLE & RAPIDE</span><h2>Comment ça marche</h2></div></div>
+      <div class="step-grid">
+        <article><i>01</i><h3>Décrivez</h3><p>Ajoutez les caractéristiques essentielles de votre produit et son état.</p></article>
+        <article><i>02</i><h3>Comparez</h3><p>Consultez des produits similaires et observez les fourchettes de valeur.</p></article>
+        <article><i>03</i><h3>Décidez</h3><p>Utilisez les informations disponibles pour vendre, acheter ou conserver.</p></article>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="brand"><span class="brand-mark">C</span><span>Chamacheck</span></div><p>La valeur des objets, mieux comprise.</p><span>© 2026 Chamacheck</span></footer>
+
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-box">
+      <button class="close" onclick="closeEstimate()">×</button>
+      <span class="eyebrow">ESTIMATION</span><h2>Estimez votre produit</h2>
+      <p class="muted">Cette estimation est indicative et ne remplace pas l'expertise d'un professionnel.</p>
+      <label>Catégorie<select id="mCategory"><option>Montres</option><option>Bijoux</option><option>Art</option><option>Automobile</option><option>Collection</option></select></label>
+      <label>Nom du produit<input id="mName" placeholder="Ex. Montre mécanique vintage"></label>
+      <label>État<select id="mState"><option>Excellent</option><option>Très bon</option><option>Bon</option><option>À restaurer</option></select></label>
+      <label>Année<input id="mYear" type="number" placeholder="Ex. 1987"></label>
+      <button class="primary full" onclick="estimate()">Obtenir une estimation</button>
+      <div id="estimateResult" class="estimate-result"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
