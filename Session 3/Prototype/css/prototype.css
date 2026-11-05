@@ -19,14 +19,16 @@
 
 }
 .liens-navigation{
-    color: #141414; 
+    color: #0a3de6; 
     font-size: 14px; 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     gap: 24px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: bold}
+    
+     }
+
 hr{
     color: #1769E8 ;
     
@@ -93,10 +95,9 @@ img{
    
 
 
-.cards-list img{
-    width: 200px;
+
    
-}
+
 
 .ii{ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #1769E8;
@@ -119,6 +120,11 @@ img{
 .img2{display: flex;}
 .img3{display: flex;}
 .img4{display: flex;}
+
+/*Les logo de cards*/
+.terminal{display: flex; justify-content: space-around ; height: 50px;width: 25px;}
+.smartphone{ display: flex;justify-content: space-around;}
+.platte{ display: flex;}
 
 
 
@@ -173,5 +179,6 @@ img{
     margin-top: 10px;
     padding-left: 15px;
 }
+
 
 
